@@ -1,0 +1,3 @@
+
+xrandr --newmode "2104x900_60.00"  156.25  2104 2232 2448 2792  900 903 913 934 -hsync +vsync
+xrandr --addmode Virtual-1 "2104x900_60.00" ; xrandr --output Virtual-1 --mode "2104x900_60.00"
