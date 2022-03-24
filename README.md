@@ -1,6 +1,6 @@
 ### Installation
 
-## Arch
+## Packages
 ```
 sudo pacman --noconfirm -S xorg xorg-xinit xorg-server \
 qemu-guest-agent spice-vdagent xf86-video-intel xf86-video-qxl \
