@@ -1,24 +1,29 @@
-# List of config files I need
+## Installation
 
-## Config File
+# Arch
+sudo pacman --noconfirm -S xorg xorg-xinit xorg-server \
+qemu-guest-agent spice-vdagent xf86-video-intel xf86-video-qxl \
+adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts \
+noto-fonts noto-fonts-emoji noto-fonts-cjk \
+ttf-jetbrains-mono ttf-joypixels ttf-font-awesome otf-font-awesome \
+bspwm sxhkd picom nitrogen \
+kitty rofi \
+git \
 
-    Bspwm
-    Sxhkd
-    xinit
+## yay packages
+yay --noconfirm -S nerd-fonts-complete \
+polybar pulseaudio alsa-utils
 
-    nvim
 
-    Polybar
-    Dunst
-    Rofi
-
-    gtk-2.0
-    gtk-3.0
-
-## Other Dotfiles
-
-    .xprofile
-
-## Other
-
-    fonts
+Clone the Repo
+    git clone https://github.com/Solalace/dots
+    
+Go to dotfiles dir
+    cd dots
+    
+Give permissions to execute:
+    chmod +x polybar/launch.sh
+    chmod +x bspwm/bspwmrc
+    
+Copy directories to ~/.config
+    cp -r {bspwm,polybar,sxhkd,kitty} ~/.config
