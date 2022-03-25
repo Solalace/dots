@@ -2,4 +2,4 @@
 
 cd ~/ ; git clone https://aur.archlinux.org/yay.git ; cd yay ; makepkg -si ; cd ~/ ; sudo mv yay /usr/share/ ; yay --noconfirm -S nerd-fonts-complete polybar pulseaudio alsa-utils librewolf-bin
 cd dots ; chmod +x polybar/launch.sh bspwm/bspwmrc ; cp -r {bspwm,polybar,sxhkd,kitty,fetch} ~/.config ; mv .xinitrc .xprofile ~/
-cd AwesomeFonts ; sudo mv 'Font Awesome 6 Brands-Regular-400.otf' 'Font Awesome 6 Duotone-Solid-900.otf' 'Font Awesome 6 Pro-Light-300.otf' 'Font Awesome 6 Pro-Regular-400.otf' 'Font Awesome 6 Pro-Solid-900.otf' 'Font Awesome 6 Pro-Thin-100.otf' /usr/share/fonts/OTF
+cd AwesomeFonts ; sudo mkdir /usr/share/fonts/OTF ; sudo cp 'Font Awesome 6 Brands-Regular-400.otf' 'Font Awesome 6 Duotone-Solid-900.otf' 'Font Awesome 6 Pro-Light-300.otf' 'Font Awesome 6 Pro-Regular-400.otf' 'Font Awesome 6 Pro-Solid-900.otf' 'Font Awesome 6 Pro-Thin-100.otf' /usr/share/fonts/OTF
