@@ -11,7 +11,7 @@ function preboot() {
 ## Launch apps
 
 killall python bspc 2> /dev/null
-preboot sxhkd -c '$XDG_CONFIG_HOME/_main/sxhkd/config.sx' -s /tmp/sxhkd.fifo
+preboot sxhkd -c '$XDG_CONFIG_HOME/_main/sxhkd/sxhkdrc' -s /tmp/sxhkd.fifo
 
 ## Disabled
 # preboot dunst -config '$XDG_CONFIG_HOME/dunst/config.ini'
