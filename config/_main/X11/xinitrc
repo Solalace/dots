@@ -1,31 +1,26 @@
 #!/usr/bin/env bash
 
-userresources=$XDG_DATA_HOME/_main/X11/Xresources
-sysresources=/etc/X11/xinit/.Xresources
+function init_session() {
+  xset b off
+  
+  source "/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
 
-source "/etc/X11/xinit/xinitrc.d/50-systemd-user.sh"
+  systemctl --user import-environment DISPLAY XAUTHORITY
+   if which dbus-update-activation-environment >/dev/null 2>&1; then
+    dbus-update-activation-environment DISPLAY XAUTHORITY
+   fi
 
-# Merge defaults
-if [ -f $sysresources ]; then
-    xrdb -merge $sysresources
+    . "$XDG_CONFIG_HOME/_main/X11/.xprofile"
+    
+    exec bspwm -c "$XDG_CONFIG_HOME/_main/bspwm/config.bash"
+}
+
+if [ ! "$PWD" = "$HOME" ]
+then
+  pushd "$HOME"
+  init_session
+  popd
+else
+  init_session
 fi
 
-if [ -f "$userresources" ]; then
-    xrdb -merge "$userresources"
-fi
-
-if [ -d /etc/X11/xinit/xinitrc.d ] ; then
- for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
-  [ -x "$f" ] && . "$f"
- done
- unset f
-fi
-
-systemctl --user import-environment DISPLAY XAUTHORITY
-  if which dbus-update-activation-environment >/dev/null 2>&1; then
-  dbus-update-activation-environment DISPLAY XAUTHORITY
-fi
-
-. "$XDG_CONFIG_HOME/_main/X11/.xprofile"
-
-exec bspwm -c "$XDG_CONFIG_HOME/_main/bspwm/config.bash"
