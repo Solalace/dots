@@ -26,9 +26,6 @@ systemctl --user import-environment DISPLAY XAUTHORITY
   dbus-update-activation-environment DISPLAY XAUTHORITY
 fi
 
-# bash ~/.xprofile
-nitrogen --restore --set-scaled &
-# xsetroot -cursor_name left_ptr
-setxkbmap -layout us &
-picom &
+. "$XDG_CONFIG_HOME/_main/X11/.xprofile"
+
 exec bspwm -c "$XDG_CONFIG_HOME/_main/bspwm/config.bash"
