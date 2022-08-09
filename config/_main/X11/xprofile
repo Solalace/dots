@@ -1,1 +1,7 @@
-#xrandr
+#!/usr/bin/env bash
+
+# sxhkd &
+# dunst &
+# nitrogen --restore --set-scaled &
+setxkbmap -layout us &
+picom &
