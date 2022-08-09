@@ -5,4 +5,5 @@ bspc rule --remove '*:*'
 function rule() { bspc rule --add "$@"; }
 
 ## Settings
-# Rule ( Application ) ( Parameters )
+# rule ( Application ) ( Parameters )
+# rule Rofi border=off manage=off layer=above
