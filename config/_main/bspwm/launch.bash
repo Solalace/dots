@@ -10,7 +10,6 @@ function preboot() {
 
 ## Launch apps
 
-killall python bspc 2> /dev/null
 preboot sxhkd -c '$XDG_CONFIG_HOME/_main/sxhkd/sxhkdrc' -s /tmp/sxhkd.fifo
 
 ## Disabled
