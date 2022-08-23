@@ -8,11 +8,11 @@ wm border_width   8
 wm window_gap     8
 wm top_padding    0
 
-# source "$XDG_CONFIG_HOME/_main/bspwm/theme.bash"
-# wm normal_border_color "$shade"
-# wm focused_border_color "$black"
-# wm active_border_color "$magenta"
-# wm presel_feedback_color "$blue"
+source "$XDG_CONFIG_HOME/_main/bspwm/theme.bash"
+wm normal_border_color "$shade"
+wm focused_border_color "$black"
+wm active_border_color "$magenta"
+wm presel_feedback_color "$blue"
 
 wm split_ratio 0.5
 wm mapping_events_count -1
