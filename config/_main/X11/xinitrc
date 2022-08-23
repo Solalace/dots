@@ -11,7 +11,7 @@ function init_session() {
    fi
 
     . "$XDG_CONFIG_HOME/_main/X11/.xprofile"
-    preboot sxhkd -c "$XDG_CONFIG_HOME/_main/sxhkd/sxhkdrc"
+    preboot sxhkd -c "$XDG_CONFIG_HOME/_main/sxhkd/sxhkdrc" -s /tmp/sxhkd.fifo
     exec bspwm -c "$XDG_CONFIG_HOME/_main/bspwm/config.bash"
 }
 
