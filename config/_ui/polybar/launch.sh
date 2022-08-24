@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 
-launch_bar() {
-  killall polybar
-  while pgrep polybar; do killall polybar; done
-  polybar primary -c $XDG_CONFIG_HOME/_ui/polybar/config.ini &
-  polybar secondary -c $XDG_CONFIG_HOME/_ui/polybar/config.ini &
-  polybar -q main -c "$dir/config.ini"
-}
+if [[ "$(pidof polybar)" != "" ]]; then
+	killall polybar
+	sleep 2
+fi
 
-launch_bar
+config="$XDG_CONFIG_HOME/_ui/polybar/config.ini"
+polybar -q -c "$config" lower &
+disown
