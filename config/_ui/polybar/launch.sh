@@ -1,12 +1,10 @@
-#!/usr/bin/sh
-
-dir="$HOME/.config/polybar"
+#!/usr/bin/env bash
 
 launch_bar() {
   killall polybar
   while pgrep polybar; do killall polybar; done
-  polybar primary -c ~/.config/polybar/config.ini &
-  polybar secondary -c ~/.config/polybar/config.ini &
+  polybar primary -c $XDG_CONFIG_HOME/_ui/polybar/config.ini &
+  polybar secondary -c $XDG_CONFIG_HOME/_ui/polybar/config.ini &
   polybar -q main -c "$dir/config.ini"
 }
 
