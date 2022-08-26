@@ -1,9 +1,9 @@
 
 * {
-    bg-col: 		   #212528FF;
-    bg-col-light:  #38383CFF;
-    fg-col: 		   #BEBEBEFF;
-    fg-col-alt: 	 #FFFFFFFF;
+    bg-col: 		#212528FF;
+    bg-col-light: 	#38383CFF;
+    fg-col: 		#BEBEBEFF;
+    fg-col-alt: 	#FFFFFFFF;
 
-    accent:        #3762DFFF;
+    accent: 		#3762DFFF;
 }
