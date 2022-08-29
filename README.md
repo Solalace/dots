@@ -15,7 +15,8 @@ git \
 ## yay packages
 ```
 yay --noconfirm -S nerd-fonts-complete \
-polybar pulseaudio alsa-utils
+polybar pulseaudio alsa-utils \
+nordic-theme graphite-gtk-theme orchis-theme dracula-gtk-theme
 ```
 
 ##### Clone the Repo
