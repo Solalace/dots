@@ -17,7 +17,8 @@ git \
 ```
 yay --noconfirm -S nerd-fonts-complete \
 polybar pulseaudio alsa-utils \
-nordic-theme materia-gtk-theme orchis-theme dracula-gtk-theme papirus-icon-theme-git
+papirus-icon-theme-git papirus-folders-git \
+nordic-theme materia-gtk-theme orchis-theme dracula-gtk-theme
 ```
 
 ##### Clone the Repo
