@@ -8,6 +8,7 @@ adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts \
 noto-fonts noto-fonts-emoji noto-fonts-cjk \
 ttf-jetbrains-mono ttf-joypixels \
 bspwm sxhkd picom nitrogen \
+lxappearance qt5ct \
 kitty rofi \
 git \
 ```
