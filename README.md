@@ -16,7 +16,7 @@ git \
 ```
 yay --noconfirm -S nerd-fonts-complete \
 polybar pulseaudio alsa-utils \
-nordic-theme graphite-gtk-theme orchis-theme dracula-gtk-theme
+nordic-theme graphite-gtk-theme orchis-theme dracula-gtk-theme yaru-colors-gtk-theme
 ```
 
 ##### Clone the Repo
