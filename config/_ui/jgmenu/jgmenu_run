@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+: ${JGMENU_EXEC_DIR="$XDG_CONFIG_HOME/_ui/jgmenu"}
+
+export PATH="$JGMENU_EXEC_DIR:$PATH"
+JGMENU_LOCKFILE=$XDG_CONFIG_HOME/_ui/jgmenu
