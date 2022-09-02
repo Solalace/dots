@@ -1,0 +1,88 @@
+// Everything
+* {
+all: unset;
+background-color: $black;
+font-family: $iconfont;
+}
+
+
+button {
+border: 0px;
+background: none;
+}
+
+button:hover {
+  color: $blue;
+}
+
+.Uifont {
+font-family: $dashfont;
+font-size: 20;
+color: $white;
+}
+
+.iconfont {
+color: $purple;
+font-size: 46;
+}
+
+// Colors
+.red {
+color: $red;
+font-family: $dashfont;
+}
+
+.blue {
+color: $blue;
+font-family: $dashfont;
+}
+
+.green {
+color: $green;
+font-family: $dashfont;
+}
+
+.pink {
+color: $pink;
+font-family: $dashfont;
+}
+
+.orange {
+color: $orange;
+font-family: $dashfont;
+}
+
+.yellow {
+color: $yellow;
+font-family: $dashfont;
+}
+
+.purple {
+color: $purple;
+font-family: $dashfont;
+}
+
+// .teal {
+// color: $teal;
+// font-family: $dashfont;
+// }
+
+.white {
+color: $white;
+font-family: $dashfont;
+}
+
+// Monitor
+.monitorfont {
+font-size: 35;
+}
+
+// background
+.bg {
+opacity: 0.5;
+}
+
+// Sys
+.sysfont {
+font-size: 28;
+}
