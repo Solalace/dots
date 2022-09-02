@@ -18,7 +18,7 @@ export XAUTHORITY="$XDG_CONFIG_HOME/_main/X11/Xauthority"
 export XRESOURCES="$XDG_CONFIG_HOME/_main/X11/Xresources"
 export XINITRC="$XDG_CONFIG_HOME/_main/X11/xinitrc"
 
-export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/_misc/npm/npmrc
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/_misc/npm/npmrc"
 
 export KITTY_CONFIG_DIRECTORY="$XDG_CONFIG_HOME/_term/kitty"
 
