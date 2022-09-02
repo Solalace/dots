@@ -1,5 +1,5 @@
 
-verbosity = 0
+verbosity = 2
 persistent = 0
 at_pointer = 1
 stay_alive = 1
