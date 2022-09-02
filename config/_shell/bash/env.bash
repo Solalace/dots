@@ -7,7 +7,7 @@ export XDG_DATA_HOME="$HOME/.local/share"
 
 export XDG_CONFIG_DIRS="/etc/xdg"
 
-export XDG_STATE_HOME"/bash/history"
+export HISTFILE="$XDG_STATE_HOME/bash/history"
 
 export XDG_DOWNLOAD_DIR="$HOME/Downloads"
 export XDG_DOCUMENTS_DIR="$HOME/Documents"
