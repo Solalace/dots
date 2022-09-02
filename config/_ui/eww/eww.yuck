@@ -1,0 +1,95 @@
+(defwidget box1 []
+	(box	:orientation "vertical"
+		:spacing 15 
+		:space-evenly "false" 
+		:valign "center" 
+		:tooltip "Profile" 
+		:class "Uifont"
+  	(label	:class "green"	:text "box1")))
+
+(defwidget box2 []
+        (box    :orientation "vertical"
+                :spacing 15 
+                :space-evenly "false"
+                :valign "center"
+                :tooltip "Profile"
+                :class "Uifont"
+        (label  :class "blue"   :text "box2")))
+
+(defwidget box3 []
+        (box    :orientation "vertical"
+                :spacing 15 
+                :space-evenly "false"
+                :valign "center"
+                :tooltip "Profile"
+                :class "Uifont"
+        (label  :class "pink"   :text "box3")))
+
+(defwidget box4 []
+        (box    :orientation "vertical"
+                :spacing 15 
+                :space-evenly "false"
+                :valign "center"
+                :tooltip "Profile"
+                :class "Uifont"
+        (label  :class "red"   :text "box4")))
+
+(defwidget box5 []
+        (box    :orientation "vertical"
+                :spacing 15 
+                :space-evenly "false"
+                :valign "center"
+                :tooltip "Profile"
+                :class "Uifont"
+        (label  :class "orange"   :text "box5")))
+
+(defwidget box6 []
+        (box    :orientation "vertical"
+                :spacing 15 
+                :space-evenly "false"
+                :valign "center"
+                :tooltip "Profile"
+                :class "Uifont"
+        (label  :class "purple"   :text "box6")))
+
+(defwindow dash1
+	:geometry (geometry :x 171
+			   :y 128 
+			   :width 250 
+			   :height 300)
+	(box1))
+
+(defwindow dash2 
+	:geometry (geometry :x 171
+			   :y 438 
+			   :width 250 
+			   :height 55)
+	(box2))
+
+(defwindow dash3
+	:geometry (geometry :x 171 
+			   :y 503 
+			   :width 250 
+			   :height 137)
+	(box3))
+
+(defwindow dash4 
+	:geometry (geometry :x 431
+			   :y 128 
+			   :width 300 
+			   :height 300)
+	(box4))
+
+(defwindow dash5 
+	:geometry (geometry :x 431 
+			   :y 438 
+			   :width 400 
+			   :height 202)
+	(box5))
+	
+(defwindow dash6
+	:geometry (geometry :x 841
+			   :y 340 
+			   :width 251 
+			   :height 300)
+	(box6))
