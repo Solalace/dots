@@ -15,7 +15,7 @@ git \
 
 ## yay packages
 ```
-yay --noconfirm -S nerd-fonts-complete \
+yay --noconfirm -S nerd-fonts-complete ttf-iosevka \
 polybar pulseaudio alsa-utils \
 papirus-icon-theme-git papirus-folders-git \
 nordic-theme materia-gtk-theme orchis-theme dracula-gtk-theme
