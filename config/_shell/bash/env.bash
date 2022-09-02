@@ -18,6 +18,11 @@ export XAUTHORITY="$XDG_CONFIG_HOME/_main/X11/Xauthority"
 export XRESOURCES="$XDG_CONFIG_HOME/_main/X11/Xresources"
 export XINITRC="$XDG_CONFIG_HOME/_main/X11/xinitrc"
 
+export GTK_RC_FILES="$XDG_CONFIG_HOME/gtk-1.0/gtkrc"
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
+export GTK3_RC_FILES="$XDG_CONFIG_HOME/gtk-3.0/gtkrc"
+export GTK4_RC_FILES="$XDG_CONFIG_HOME/gtk-4.0/gtkrc"
+
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/_misc/npm/npmrc"
 
 export KITTY_CONFIG_DIRECTORY="$XDG_CONFIG_HOME/_term/kitty"
