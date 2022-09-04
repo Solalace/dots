@@ -11,7 +11,10 @@ function preboot() {
 ## Launch apps
 
 preboot sxhkd -c '$XDG_CONFIG_HOME/_main/sxhkd/sxhkdrc' -s /tmp/sxhkd.fifo
+preboot picom --config '$XDG_CONFIG_HOME/_main/picom/config.ini'
+
 
 ## Disabled
 # preboot dunst -config '$XDG_CONFIG_HOME/dunst/config.ini'
-# preboot picom --config '$XDG_CONFIG_HOME/picom/config.ini' &
+# preboot parcellite --no-icon # clipboard manager
+# preboot spotifyd &
