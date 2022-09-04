@@ -11,7 +11,7 @@ function preboot() {
 ## Launch apps
 
 preboot sxhkd -c '$XDG_CONFIG_HOME/_main/sxhkd/sxhkdrc' -s /tmp/sxhkd.fifo
-preboot picom --config '$XDG_CONFIG_HOME/_main/picom/config.ini'
+preboot picom --config '$XDG_CONFIG_HOME/_main/picom/picom.conf'
 
 
 ## Disabled
