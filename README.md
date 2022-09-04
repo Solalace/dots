@@ -25,16 +25,11 @@ nordic-theme materia-gtk-theme orchis-theme dracula-gtk-theme
 ```
 git clone https://github.com/Solalace/dots
 ```
-##### Go to dotfiles dir
-```
-cd dots
-```
+
 ##### Give permissions to execute:
 ```
 chmod +x polybar/launch.sh
-chmod +x bspwm/bspwmrc
+chmod +x _main/bspwm/config.bash
+chmod +x _main/picom/picom.conf
+chmod +x _main/sxhkd/sxhkdrc
 ``` 
-##### Copy directories to ~/.config
-```
-cp -r {bspwm,polybar,sxhkd,kitty} ~/.config
-```
