@@ -28,7 +28,7 @@ git clone https://github.com/Solalace/dots
 
 ##### Give permissions to execute:
 ```
-chmod +x polybar/launch.sh
+chmod +x _ui/polybar/launch.sh
 chmod +x _main/bspwm/config.bash
 chmod +x _main/picom/picom.conf
 chmod +x _main/sxhkd/sxhkdrc
