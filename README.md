@@ -9,7 +9,7 @@ ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-joypixels \
 noto-fonts noto-fonts-emoji noto-fonts-cjk \
 bspwm sxhkd picom nitrogen kitty rofi jgmenu \
 lxappearance qt5ct \
-qutebrowser \
+qutebrowser nemo \
 git \
 ```
 
@@ -17,7 +17,7 @@ git \
 ```
 yay --noconfirm -S nerd-fonts-complete ttf-iosevka \
 polybar pulseaudio alsa-utils \
-papirus-icon-theme-git papirus-folders-git \
+papirus-icon-theme-git papirus-folders-git bibata-cursor-theme \
 nordic-theme materia-gtk-theme orchis-theme dracula-gtk-theme
 ```
 
