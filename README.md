@@ -16,6 +16,7 @@ git \
 ```
 yay --noconfirm -S nerd-fonts-complete ttf-iosevka \
 polybar pulseaudio alsa-utils \
+picom-animations-git \
 lxappearance qt5ct \
 papirus-icon-theme-git papirus-folders-git bibata-cursor-theme \
 nordic-theme materia-gtk-theme orchis-theme dracula-gtk-theme
