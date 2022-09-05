@@ -1,7 +1,5 @@
-
 verbosity = 2
 persistent = 0
-at_pointer = 1
 stay_alive = 1
 hide_back_items = 1
 
@@ -12,8 +10,8 @@ terminal_args = -e
 columns = 1
 tabs = 120
 
-menu_width = 200
-menu_padding_top = 10
+menu_width = 260
+menu_padding_top = 42
 menu_padding_right = 5
 menu_padding_bottom = 5
 menu_padding_left = 5
@@ -25,7 +23,7 @@ menu_height_mode = dynamic
 sub_spacing = 1
 sub_hover_action = 1
 
-item_margin_y = 2.5
+item_margin_y = 4
 item_height = 30
 item_padding_x = 5
 item_radius = 5
@@ -42,7 +40,7 @@ sep_height = 5
 font = JetBrainsMono 15px
 icon_size = 40
 icon_theme = Papirus
-arrow_string = >
+arrow_string = 
 
 color_menu_bg = #101315 100
 color_norm_bg = #101315 0
