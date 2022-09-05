@@ -1,0 +1,55 @@
+
+@text,,20,15,150,20,2,left,top,auto,#101315 0,<span size="14pt"></span>
+
+@search,,40,15,150,20,2,left,top,auto,#101315 0,<span size="12pt">search...</span>
+
+
+^sep()
+Terminal,kitty, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/terminal.png
+
+Web Browser, qutebrowser, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/web-browser.png
+
+File manager, nemo, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/file-manager.png
+
+Text Editor, gedit, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/text-editor.png
+
+^sep()
+Applications, ^checkout(apps), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/applications.png
+
+Development, ^checkout(dev), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/development.png
+
+Multimedia, ^checkout(multimedia), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/multimedia.png
+
+Network, ^checkout(network), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/network.png
+
+Utilities, ^checkout(utils), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/utilities.png
+
+Settings, ^checkout(settings), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/settings.png
+
+^sep()
+Exit, ^checkout(bspwm), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/bspwm.png
+
+
+^tag(bspwm)
+
+Logout, bspc quit, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/logout.png
+
+Reboot, systemctl -i reboot, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/reboot.png
+
+Suspend, systemctl -i suspend, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/suspend.png
+
+Poweroff, systemctl -i poweroff, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/poweroff.png
+
+^tag(apps)
+
+^tag(dev)
+
+^tag(multimedia)
+
+^tag(network)
+
+^tag(utils)
+
+Nitrogen, nitrogen, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/nitrogen.png
+
+^tag(settings)
