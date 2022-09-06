@@ -10,7 +10,7 @@ noto-fonts noto-fonts-emoji noto-fonts-cjk \
 bspwm sxhkd picom nitrogen kitty rofi jgmenu dunst \
 zathura zathura-pdf-poppler \
 qutebrowser neovim nemo \
-git \
+git wget p7zip
 ```
 
 ## yay packages
