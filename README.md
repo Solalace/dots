@@ -8,7 +8,7 @@ adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts \
 ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-joypixels \
 noto-fonts noto-fonts-emoji noto-fonts-cjk \
 bspwm sxhkd picom nitrogen kitty rofi jgmenu dunst \
-zathura zathura-pdf-poppler \
+zathura zathura-pdf-poppler qalculate-gtk \
 qutebrowser neovim nemo \
 git wget p7zip
 ```
