@@ -15,7 +15,13 @@ qutebrowser neovim nemo \
 git wget p7zip
 ```
 
-## yay packages
+# Install Yay
+```
+git clone https://aur.archlinux.org/yay.git
+cd yay ; makepkg -si
+```
+
+## Yay packages
 ```
 yay --noconfirm -S nerd-fonts-complete ttf-iosevka \
 polybar pulseaudio alsa-utils \
@@ -29,6 +35,7 @@ nordic-theme materia-gtk-theme orchis-theme dracula-gtk-theme
 ##### Clone the Repo
 ```
 git clone https://github.com/Solalace/dots
+mv .xinitrc
 ```
 
 ##### Give permissions to execute:
@@ -37,4 +44,11 @@ chmod +x _ui/polybar/launch.sh
 chmod +x _main/bspwm/config.bash
 chmod +x _main/picom/picom.conf
 chmod +x _main/sxhkd/sxhkdrc
-``` 
+```
+
+##### Move pre-installed fonts:
+```
+sudo mkdir /usr/share/fonts/ ; sudo mkdir /usr/share/fonts/OTF
+cd ~/.local/share/fonts/AwesomeFonts
+sudo cp 'Font Awesome 6 Brands-Regular-400.otf' 'Font Awesome 6 Duotone-Solid-900.otf' 'Font Awesome 6 Pro-Light-300.otf' 'Font Awesome 6 Pro-Regular-400.otf' 'Font Awesome 6 Pro-Solid-900.otf' 'Font Awesome 6 Pro-Thin-100.otf' /usr/share/fonts/OTF
+```
