@@ -35,7 +35,6 @@ nordic-theme materia-gtk-theme orchis-theme dracula-gtk-theme
 ##### Clone the Repo
 ```
 git clone https://github.com/Solalace/dots
-mv .xinitrc
 ```
 
 ##### Give permissions to execute:
