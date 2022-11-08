@@ -8,7 +8,7 @@ adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts \
 ttf-nerd-fonts-symbols-common ttf-jetbrains-mono ttf-joypixels \
 noto-fonts noto-fonts-emoji noto-fonts-cjk \
 powerline-fonts \
-lightdm lightdm-webkit2-greeter \
+lightdm lightdm-gtk-greeter lightdm-webkit2-greeter \
 bspwm sxhkd nitrogen kitty rofi jgmenu dunst \
 zathura zathura-pdf-poppler qalculate-gtk \
 qutebrowser neovim nemo \
