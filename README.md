@@ -51,5 +51,4 @@ sudo mkdir /usr/share/fonts/ /usr/share/fonts/OTF /usr/share/fonts/TTF
 cp ~/.local/share/fonts/*ttf* /usr/share/fonts/TTF
 cp ~/.local/share/fonts/*otf* /usr/share/fonts/OTF
 cp ~/.local/share/fonts/*/ /usr/share/fonts/
-
 ```
