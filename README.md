@@ -39,16 +39,13 @@ git clone https://github.com/Solalace/dots
 
 ##### Give permissions to execute:
 ```
-chmod +x _ui/polybar/launch.sh
-chmod +x _main/bspwm/config.bash
-chmod +x _main/picom/picom.conf
-chmod +x _main/sxhkd/sxhkdrc
+chmod +x _ui/polybar/launch.sh _main/bspwm/config.bash _main/picom/picom.conf _main/sxhkd/sxhkdrc
 ```
 
 ##### Move pre-installed fonts:
 ```
 sudo mkdir /usr/share/fonts/ /usr/share/fonts/OTF /usr/share/fonts/TTF
-cp ~/.local/share/fonts/*ttf* /usr/share/fonts/TTF
-cp ~/.local/share/fonts/*otf* /usr/share/fonts/OTF
-cp ~/.local/share/fonts/*/ /usr/share/fonts/
+cd /usr/share/fonts/
+sudo cp ~/.local/share/fonts/*ttf* TTF/ | sudo cp ~/.local/share/fonts/*otf* OTF/
+sudo cp ~/.local/share/fonts/*/ .
 ```
