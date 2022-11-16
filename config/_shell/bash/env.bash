@@ -9,6 +9,7 @@ export XDG_CONFIG_DIRS="/etc/xdg"
 
 export HISTFILE="$XDG_STATE_HOME/bash/history"
 
+export XDG_DESKTOP_DIR="$HOME/Desktop"
 export XDG_DOWNLOAD_DIR="$HOME/Downloads"
 export XDG_DOCUMENTS_DIR="$HOME/Documents"
 export XDG_PICTURES_DIR="$HOME/Pictures"
@@ -34,6 +35,7 @@ export BROWSER="qutebrowser"
 export VISUAL="nvim"
 export EDITOR="nvim"
 export SHELL="/usr/bin/bash"
+export XDG_SESSION_TYPE="x11"
 
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME/pass"
 
