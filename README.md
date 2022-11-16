@@ -47,7 +47,9 @@ chmod +x _main/sxhkd/sxhkdrc
 
 ##### Move pre-installed fonts:
 ```
-sudo mkdir /usr/share/fonts/ ; sudo mkdir /usr/share/fonts/OTF
-cd ~/.local/share/fonts/AwesomeFonts
-sudo cp 'Font Awesome 6 Brands-Regular-400.otf' 'Font Awesome 6 Duotone-Solid-900.otf' 'Font Awesome 6 Pro-Light-300.otf' 'Font Awesome 6 Pro-Regular-400.otf' 'Font Awesome 6 Pro-Solid-900.otf' 'Font Awesome 6 Pro-Thin-100.otf' /usr/share/fonts/OTF
+sudo mkdir /usr/share/fonts/ /usr/share/fonts/OTF /usr/share/fonts/TTF
+cp ~/.local/share/fonts/*ttf* /usr/share/fonts/TTF
+cp ~/.local/share/fonts/*otf* /usr/share/fonts/OTF
+cp ~/.local/share/fonts/*/ /usr/share/fonts/
+
 ```
