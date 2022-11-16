@@ -17,10 +17,9 @@ wm presel_feedback_color "$blue"
 wm split_ratio 0.5
 wm mapping_events_count -1
 
-
 wm borderless_monocle   false
+wm paddingless_monocle  false
 wm gapless_monocle      false
-wm borderless_singleton false
 wm single_monocle       false
 wm center_pseudo_tiled  true
 wm presel_feedback      true
