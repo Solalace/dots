@@ -40,8 +40,8 @@ if [ -f $usermodmap ]; then
 fi
 
 
-if [ -d "$XDG_CONFIG_HOME"/xinitrc.d ]; then
-  for file in "$XDG_CONFIG_HOME"/xinitrc.d/?*.sh ; do
+if [ -d "$XDG_CONFIG_HOME"/_main/X11/xinitrc.d ]; then
+  for file in "$XDG_CONFIG_HOME"/_main/X11/xinitrc.d/?*.sh ; do
     [ -x "$file" ] && source "$file"
   done
   unset file
