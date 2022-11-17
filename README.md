@@ -39,7 +39,8 @@ git clone https://github.com/Solalace/dots
 
 ##### Give permissions to execute:
 ```
-chmod +x _ui/polybar/launch.sh _main/bspwm/config.bash _main/picom/picom.conf _main/sxhkd/sxhkdrc
+cd ~/ ; chmod +x .xinitrc .xsession
+cd ~/.config ; chmod +x _ui/polybar/launch.sh _main/bspwm/config.bash _main/picom/picom.conf _main/sxhkd/sxhkdrc
 ```
 
 ##### Move pre-installed fonts:
