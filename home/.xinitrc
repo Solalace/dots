@@ -14,7 +14,7 @@ export XDG_DOCUMENTS_DIR="$HOME/Documents"
 export XDG_PICTURES_DIR="$HOME/Pictures"
 export XDG_VIDEOS_DIR="$HOME/Videos"
 
-export XCURSOR_SIZE=32
+export XCURSOR_SIZE=24
 
 userresources=$XDG_CONFIG_HOME/_main/X11/Xresources
 usermodmap=$XDG_CONFIG_HOME/_main/X11/Xmodmap
@@ -32,7 +32,7 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f $userresources ]; then
-    xrdb -I "$XDG_CONFIG_HOME/Xresources" -merge "$userresources"
+    xrdb -I "$XDG_CONFIG_HOME/_main/X11/Xresources" -merge "$userresources"
 fi
 
 if [ -f $usermodmap ]; then
