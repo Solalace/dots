@@ -3,8 +3,6 @@
 export XDG_SESSION_TYPE="x11"
 export XDG_CURRENT_DESKTOP="bspwm"
 
-xrdb -I "$XDG_CONFIG_HOME/_main/X11/Xresources"
-
 source "$XDG_CONFIG_HOME/_main/bspwm/rules.bash"
 source "$XDG_CONFIG_HOME/_main/bspwm/default.bash"
 source "$XDG_CONFIG_HOME/_main/bspwm/launch.bash"
