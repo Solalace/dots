@@ -15,9 +15,6 @@ export XDG_DOCUMENTS_DIR="$HOME/Documents"
 export XDG_PICTURES_DIR="$HOME/Pictures"
 export XDG_VIDEOS_DIR="$HOME/Videos"
 
-export XAUTHORITY="$XDG_CONFIG_HOME/_main/X11/Xauthority"
-export XRESOURCES="$XDG_CONFIG_HOME/_main/X11/Xresources"
-
 export GTK_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-1.0/gtkrc"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-2.0/gtkrc"
 export GTK3_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-3.0/gtkrc"
