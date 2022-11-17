@@ -10,5 +10,6 @@ source "$XDG_CONFIG_HOME/_main/bspwm/default.bash"
 source "$XDG_CONFIG_HOME/_main/bspwm/launch.bash"
 
 # set root cursor
+xset b off
 xsetroot -cursor_name left_ptr
 xset mouse 0 0
