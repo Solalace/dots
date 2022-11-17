@@ -2,7 +2,7 @@
 
 ## Packages
 ```
-sudo pacman --noconfirm -S xorg xorg-xinit xorg-server \
+sudo pacman -S xorg xorg-xinit xorg-server \
 qemu-guest-agent spice-vdagent xf86-video-intel xf86-video-qxl \
 adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts \
 ttf-nerd-fonts-symbols-common ttf-jetbrains-mono ttf-joypixels \
@@ -23,7 +23,7 @@ cd yay ; makepkg -si
 
 ## Yay packages
 ```
-yay --noconfirm -S nerd-fonts-complete ttf-iosevka \
+yay -S nerd-fonts-complete ttf-iosevka \
 polybar pulseaudio alsa-utils \
 picom-animations-git \
 lxappearance qt5ct \
