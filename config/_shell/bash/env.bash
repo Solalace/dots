@@ -5,7 +5,7 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.var"
 export XDG_DATA_HOME="$HOME/.local/share"
 
-export PATH="${PATH}:/home/$USER/bin"
+export PATH="${PATH}:/home/$USER/.bin"
 export XDG_CONFIG_DIRS="/etc/xdg"
 export HISTFILE="$XDG_STATE_HOME/bash/history"
 
