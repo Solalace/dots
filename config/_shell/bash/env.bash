@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export SUDO_PROMPT="[$USER][sudo] password: "
+
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.var"
