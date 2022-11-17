@@ -51,7 +51,7 @@ function init_session() {
   
   export XDG_CURRENT_DESKTOP="bspwm"
 
-    . "$XDG_CONFIG_HOME/_main/X11/xprofile"
+    . "$XDG_CONFIG_HOME/_main/X11/Xprofile"
     exec bspwm -c "$XDG_CONFIG_HOME/_main/bspwm/config.bash"
 }
 
