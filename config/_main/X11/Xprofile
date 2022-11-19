@@ -2,3 +2,7 @@
 
 # nitrogen --restore --set-scaled &
 setxkbmap -layout us &
+
+# Resolution
+# Make sure to give the script executable permission
+# $HOME/.local/bin/setRes.sh <output> <x> <y> <rate>
