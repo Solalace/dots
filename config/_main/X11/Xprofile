@@ -5,4 +5,4 @@ setxkbmap -layout us &
 
 # Resolution
 # Make sure to give the script executable permission
-# $HOME/.local/bin/setRes.sh <output> <x> <y> <rate>
+# $HOME/.local/bin/setres <output> <x> <y> <rate>
