@@ -21,12 +21,12 @@ export XDG_VIDEOS_DIR="$HOME/Videos"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-2.0/gtkrc"
 export GTK3_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-3.0/gtkrc"
 export GTK4_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-4.0/gtkrc"
-export QT_QPA_PLATFORMTHEME="gtk3"
 
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/_misc/npm/npmrc"
 
 export KITTY_CONFIG_DIRECTORY="$XDG_CONFIG_HOME/_term/kitty"
 
+# export QT_QPA_PLATFORMTHEME="gtk3"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 export WINDOW_MANAGER="bspwm"
 export BROWSER="qutebrowser"
