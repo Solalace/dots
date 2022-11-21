@@ -9,8 +9,9 @@ ttf-nerd-fonts-symbols-common ttf-jetbrains-mono ttf-joypixels \
 noto-fonts noto-fonts-emoji noto-fonts-cjk \
 powerline-fonts \
 lightdm lightdm-gtk-greeter lightdm-webkit2-greeter \
-bspwm sxhkd nitrogen kitty rofi jgmenu dunst \
 zathura zathura-pdf-poppler qalculate-gtk \
+gtk-engines gtk-engine-murrine \
+bspwm sxhkd nitrogen kitty rofi jgmenu dunst \
 qutebrowser neovim nemo \
 git wget p7zip
 ```
