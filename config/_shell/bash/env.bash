@@ -26,7 +26,6 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/_misc/npm/npmrc"
 
 export KITTY_CONFIG_DIRECTORY="$XDG_CONFIG_HOME/_term/kitty"
 
-# export QT_QPA_PLATFORMTHEME="gtk3"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 export WINDOW_MANAGER="bspwm"
 export BROWSER="qutebrowser"
