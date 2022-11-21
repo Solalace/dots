@@ -13,6 +13,7 @@ zathura zathura-pdf-poppler qalculate-gtk \
 gtk-engines gtk-engine-murrine \
 bspwm sxhkd nitrogen kitty rofi jgmenu dunst \
 qutebrowser neovim nemo \
+python-adblock \
 git wget p7zip
 ```
 
