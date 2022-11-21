@@ -14,6 +14,12 @@ export XDG_DOCUMENTS_DIR="$HOME/Documents"
 export XDG_PICTURES_DIR="$HOME/Pictures"
 export XDG_VIDEOS_DIR="$HOME/Videos"
 
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-2.0/gtkrc"
+export GTK3_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-3.0/gtkrc"
+export GTK4_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-4.0/gtkrc"
+
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
 export XCURSOR_SIZE=24
 
 userresources=$XDG_CONFIG_HOME/_main/X11/Xresources
