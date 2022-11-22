@@ -12,9 +12,9 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_DIRS="/etc/xdg"
 export XDG_RUNTIME_DIR="/run/user/$(id -u)"
 
-export HISTFILE="$XDG_STATE_HOME/bash/history"
 export HISTSIZE=1000
 export SAVEHIST=1000
+export HISTFILE="$XDG_STATE_HOME/bash/history"
 
 export XDG_DESKTOP_DIR="$HOME/Desktop"
 export XDG_DOWNLOAD_DIR="$HOME/Downloads"
