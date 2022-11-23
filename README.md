@@ -12,7 +12,7 @@ lightdm lightdm-gtk-greeter lightdm-webkit2-greeter \
 zathura zathura-pdf-poppler qalculate-gtk \
 gtk-engines gtk-engine-murrine \
 bspwm sxhkd nitrogen kitty rofi jgmenu dunst \
-qutebrowser neovim nemo \
+qutebrowser neovim nemo xscreensaver\
 python-adblock \
 git wget p7zip
 ```
