@@ -12,7 +12,7 @@
 
 # Aliases
 # Type: Dict
-c.aliases = ('q': 'quit', 'w': 'session-save', 'wq': 'quit --save')
+c.aliases = {'q': 'quit', 'w': 'session-save', 'wq': 'quit --save'}
 
 # Bindings
 config.bind('pt', 'tab-pin')
@@ -26,11 +26,11 @@ c.url.default_page = 'file:///home/solace/.config/_misc/qutebrowser/homepage.htm
 c.url.start_pages = 'file:///home/solace/.config/_misc/qutebrowser/homepage.html'
 
 # Search engine
-c.url.searchengines = ["DEFAULT": "https://duckduckgo.com/?q={}",
+c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
             "am": "https://www.amazon.com/s?k={}",
             "aw": "https://wiki.archlinux.org/?search={}",
             "tw": "https://twitch.tv/{}",
-            "yt": "https://www.youtube.com/results?search_query={}"]
+            "yt": "https://www.youtube.com/results?search_query={}"}
 
 # Adblock
 c.content.blocking.method = 'adblock'
