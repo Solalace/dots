@@ -33,7 +33,7 @@ c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
             "yt": "https://www.youtube.com/results?search_query={}"}
 
 # Adblock
-c.content.blocking.method = 'adblock'
+c.content.blocking.method = 'both'
 c.content.blocking.adblock.lists = [
         "https://github.com/uBlockOrigin/uAssets/raw/master/filters/legacy.txt",
         "https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters.txt",
