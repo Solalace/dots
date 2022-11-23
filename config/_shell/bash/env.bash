@@ -33,7 +33,6 @@ export READER="zathura"
 export VISUAL="nvim"
 export EDITOR="nvim"
 export SHELL="/usr/bin/bash"
-export XDG_SESSION_TYPE="x11"
 
 export WINEPREFIX="$XDG_DATA_HOME/wineprefixes/default"
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME/pass"
