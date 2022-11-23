@@ -11,10 +11,10 @@ powerline-fonts \
 lightdm lightdm-gtk-greeter lightdm-webkit2-greeter \
 zathura zathura-pdf-poppler qalculate-gtk \
 gtk-engines gtk-engine-murrine \
-bspwm sxhkd nitrogen kitty rofi jgmenu dunst \
-neovim nemo xscreensaver pulsemixer \
+bspwm sxhkd nitrogen kitty rofi jgmenu dunst fish \
+xscreensaver pulsemixer \
 qutebrowser python-adblock \
-git wget p7zip
+neovim nemo git wget p7zip
 ```
 
 #### Install Yay
