@@ -68,7 +68,7 @@ config.set("content.webrtc_ip_handling_policy", "default-public-interface-only")
 # Type: Directory
 c.downloads.location.directory = '~/Downloads'
 
-# Polybar application name
+# Application name
 c.window.title_format = '{perc}{current_title}{title_sep}Qutebrowser'
 
 # When to show the tab bar
@@ -78,16 +78,7 @@ c.window.title_format = '{perc}{current_title}{title_sep}Qutebrowser'
 #   - never: Always hide the tab bar
 #   - multiple: Hide the tab bar if only one tab is open
 #   - switching: Show the tab bar when switching tabs
-c.tabs.show = 'always'
-
-# Allow websites to show notifications
-# Type: BoolAsk
-# Valid Values:
-#   - true
-#   - false
-#   - ask
-# config.set('content.notifications.enabled', True, 'https://www.reddit.com'
-# config.set('content.notifications.enabled', True. 'https://www.youtube.com'
+c.tabs.show = 'multiple'
 
 # Set dark-mode
 config.set("colors.webpage.darkmode.enabled", True)
@@ -99,6 +90,7 @@ c.colors.completion.fg = ['#9cc4ff', 'white', 'white']
 
 # Background color for completion widget for even rows
 c.colors.tabs.even.bg = 'grey'
+
 # Background color for completion widget for odd rows
 c.colors.tabs.odd.bg = 'darkgrey'
 
