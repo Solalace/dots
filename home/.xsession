@@ -21,6 +21,7 @@ export GTK4_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-4.0/gtkrc"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
 export XCURSOR_SIZE=24
+export TERM=xterm
 
 userresources=$XDG_CONFIG_HOME/_main/X11/Xresources
 usermodmap=$XDG_CONFIG_HOME/_main/X11/Xmodmap
