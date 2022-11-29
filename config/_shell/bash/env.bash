@@ -26,8 +26,11 @@ export XDG_PICTURES_DIR="$HOME/Pictures"
 export XDG_VIDEOS_DIR="$HOME/Videos"
 
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/_misc/npm/npmrc"
+#xport RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/_misc/ripgreprc"
 export FFMPEG_DATADIR="$XDG_CONFIG_HOME/_misc/ffmpeg"
-#xport RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
+export DOCKER_CONFIG="$XDG_CONFIG_HOME/_misc/docker"
+export WGETRC="$XDG_CONFIG_HOME/_misc/wgetrc"
+
 export KITTY_CONFIG_DIRECTORY="$XDG_CONFIG_HOME/_term/kitty"
 
 export WINDOW_MANAGER="bspwm"
