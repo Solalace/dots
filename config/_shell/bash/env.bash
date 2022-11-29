@@ -17,6 +17,8 @@ export SAVEHIST=1000
 export HISTFILE="$XDG_STATE_HOME/bash/history"
 export LESSHISTFILE=-
 
+export ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors"
+
 export XDG_DESKTOP_DIR="$HOME/Desktop"
 export XDG_DOWNLOAD_DIR="$HOME/Downloads"
 export XDG_DOCUMENTS_DIR="$HOME/Documents"
