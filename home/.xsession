@@ -8,15 +8,15 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_SESSION_TYPE="x11"
 export XDG_CONFIG_DIRS="/etc/xdg"
 
-export XDG_DESKTOP_DIR="$HOME/Desktop"
-export XDG_DOWNLOAD_DIR="$HOME/Downloads"
-export XDG_DOCUMENTS_DIR="$HOME/Documents"
-export XDG_PICTURES_DIR="$HOME/Pictures"
-export XDG_VIDEOS_DIR="$HOME/Videos"
+export XDG_DESKTOP_DIR="$HOME/desktop"
+export XDG_DOWNLOAD_DIR="$HOME/downloads"
+export XDG_DOCUMENTS_DIR="$HOME/documents"
+export XDG_PICTURES_DIR="$HOME/pictures"
+export XDG_VIDEOS_DIR="$HOME/videos"
 
-export GTK2_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-2.0/gtkrc"
-export GTK3_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-3.0/gtkrc"
-export GTK4_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-4.0/gtkrc"
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-2.0/"
+export GTK3_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-3.0/"
+export GTK4_RC_FILES="$XDG_CONFIG_HOME/_ui/gtk-4.0/"
 
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
