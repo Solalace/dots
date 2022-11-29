@@ -4,7 +4,14 @@ export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
 
 export SUDO_PROMPT="[$USER][sudo] password: "
 
-export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_MAIN_CONFIG="$HOME/.config/_main"
+export XDG_SHELL_CONFIG="$HOME/.config/_shell"
+export XDG_TERM_CONFIG="$HOME/.config/_term"
+export XDG_UI_CONFIG="$HOME/.config/_ui"
+export XDG_MISC_CONFIG="$HOME/.config/_misc"
+export XDG_ETC_CONFIG="$HOME/.config/_etc"
+
+export XDG_CONFIG_HOME="$XDG_ETC_CONFIG"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.var"
 export XDG_DATA_HOME="$HOME/.local/share"
@@ -19,19 +26,19 @@ export LESSHISTFILE=-
 
 export ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors"
 
-export XDG_DESKTOP_DIR="$HOME/Desktop"
-export XDG_DOWNLOAD_DIR="$HOME/Downloads"
-export XDG_DOCUMENTS_DIR="$HOME/Documents"
-export XDG_PICTURES_DIR="$HOME/Pictures"
-export XDG_VIDEOS_DIR="$HOME/Videos"
+export XDG_DESKTOP_DIR="$HOME/desktop"
+export XDG_DOWNLOAD_DIR="$HOME/downloads"
+export XDG_DOCUMENTS_DIR="$HOME/documents"
+export XDG_PICTURES_DIR="$HOME/pictures"
+export XDG_VIDEOS_DIR="$HOME/videos"
 
-export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/_misc/npm/npmrc"
-#xport RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/_misc/ripgreprc"
-export FFMPEG_DATADIR="$XDG_CONFIG_HOME/_misc/ffmpeg"
-export DOCKER_CONFIG="$XDG_CONFIG_HOME/_misc/docker"
-export WGETRC="$XDG_CONFIG_HOME/_misc/wgetrc"
+export NPM_CONFIG_USERCONFIG="$XDG_MISC_CONFIG/npm/npmrc"
+#xport RIPGREP_CONFIG_PATH="$XDG_MISC_CONFIG/ripgreprc"
+export FFMPEG_DATADIR="$XDG_MISC_CONFIG/ffmpeg"
+export DOCKER_CONFIG="$XDG_MISC_CONFIG/docker"
+export WGETRC="$XDG_MISC_CONFIG/wgetrc"
 
-export KITTY_CONFIG_DIRECTORY="$XDG_CONFIG_HOME/_term/kitty"
+export KITTY_CONFIG_DIRECTORY="$XDG_TERM_CONFIG/kitty"
 
 export WINDOW_MANAGER="bspwm"
 export BROWSER="qutebrowser"
