@@ -15,6 +15,7 @@ export XDG_RUNTIME_DIR="/run/user/$(id -u)"
 export HISTSIZE=1000
 export SAVEHIST=1000
 export HISTFILE="$XDG_STATE_HOME/bash/history"
+export LESSHISTFILE=-
 
 export XDG_DESKTOP_DIR="$HOME/Desktop"
 export XDG_DOWNLOAD_DIR="$HOME/Downloads"
@@ -23,6 +24,7 @@ export XDG_PICTURES_DIR="$HOME/Pictures"
 export XDG_VIDEOS_DIR="$HOME/Videos"
 
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/_misc/npm/npmrc"
+#xport RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
 
 export KITTY_CONFIG_DIRECTORY="$XDG_CONFIG_HOME/_term/kitty"
 
@@ -30,6 +32,8 @@ export WINDOW_MANAGER="bspwm"
 export BROWSER="qutebrowser"
 export TERMINAL="kitty"
 export READER="zathura"
+export VIDEO="mpv"
+export OPENER="xdg-open"
 export VISUAL="nvim"
 export EDITOR="nvim"
 export SHELL="/usr/bin/bash"
