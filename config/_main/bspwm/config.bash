@@ -3,9 +3,9 @@
 export XDG_SESSION_TYPE="x11"
 export XDG_CURRENT_DESKTOP="bspwm"
 
-source "$XDG_CONFIG_HOME/_main/bspwm/rules.bash"
-source "$XDG_CONFIG_HOME/_main/bspwm/default.bash"
-source "$XDG_CONFIG_HOME/_main/bspwm/launch.bash"
+source "$XDG_MAIN_CONFIG/bspwm/rules.bash"
+source "$XDG_MAIN_CONFIG/bspwm/default.bash"
+source "$XDG_MAIN_CONFIG/bspwm/launch.bash"
 
 # set root cursor
 xset b off
