@@ -5,6 +5,6 @@ if [[ "$(pidof polybar)" != "" ]]; then
 	sleep 2
 fi
 
-config="$XDG_CONFIG_HOME/_ui/polybar/config.ini"
+config="$XDG_UI_CONFIG/polybar/config.ini"
 polybar -q -c "$config" lower &
 disown
