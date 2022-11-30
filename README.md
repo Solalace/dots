@@ -10,7 +10,7 @@ noto-fonts noto-fonts-emoji noto-fonts-cjk \
 powerline-fonts \
 lightdm lightdm-gtk-greeter lightdm-webkit2-greeter \
 gtk-engines gtk-engine-murrine \
-zathura zathura-pdf-poppler qalculate-gtk \
+zathura zathura-pdf-poppler \
 xscreensaver pulsemixer \
 bspwm sxhkd nitrogen kitty rofi jgmenu dunst fish \
 qutebrowser python-adblock \
