@@ -24,7 +24,7 @@ alias grepin='grep -i'
 
 alias _='sudo'
 
-alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 
 alias logout="bspc quit"
 alias logoff="bspc quit"
