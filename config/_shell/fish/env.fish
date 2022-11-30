@@ -11,9 +11,9 @@ export HISTSIZE=1000
 export SAVEHIST=1000
 export HISTFILE="$XDG_STATE_HOME/bash/history"
 
-export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/_misc/npm/npmrc"
+export NPM_CONFIG_USERCONFIG="$XDG_MISC_CONFIG/npm/npmrc"
 
-export KITTY_CONFIG_DIRECTORY="$XDG_CONFIG_HOME/_term/kitty"
+export KITTY_CONFIG_DIRECTORY="$XDG_TERM_CONFIG/kitty"
 
 export WINDOW_MANAGER="bspwm"
 export BROWSER="qutebrowser"
