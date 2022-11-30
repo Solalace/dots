@@ -15,6 +15,6 @@ preboot picom --config '$XDG_MAIN_CONFIG/picom/picom.conf'
 
 
 ## Disabled
-# preboot dunst -config '$XDG_CONFIG_HOME/dunst/config.ini'
+# preboot dunst -config '$XDG_UI_CONFIG/dunst/config.ini'
 # preboot parcellite --no-icon # clipboard manager
 # preboot spotifyd &
