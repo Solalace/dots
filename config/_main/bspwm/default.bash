@@ -8,7 +8,7 @@ wm border_width   8
 wm window_gap     8
 wm top_padding    0
 
-source "$XDG_CONFIG_HOME/_main/bspwm/theme.bash"
+source "$XDG_MAIN_CONFIG/bspwm/theme.bash"
 wm normal_border_color "$shade"
 wm focused_border_color "$black"
 wm active_border_color "$magenta"
@@ -29,6 +29,6 @@ wm right_monocle_padding  0;
 wm bottom_monocle_padding 0;
 wm left_monocle_padding   0;
 
-wm external_rules_command "$XDG_CONFIG_HOME/_main/bspwm/extern.bash"
+wm external_rules_command "$XDG_MAIN_CONFIG/bspwm/extern.bash"
 
 bspc wm --record-history on
