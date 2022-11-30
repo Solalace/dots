@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + t
-	kitty --config $XDG_CONFIG_HOME/_term/kitty/kitty.conf
+	kitty --config $XDG_TERM_CONFIG/kitty/kitty.conf
 
 # program launcher
 super + @space
-	rofi -show run -config $XDG_CONFIG_HOME/_ui/rofi/config.rasi
+	rofi -show run -config $XDG_UI_CONFIG/rofi/config.rasi
 
 # make sxhkd reload its configuration files:
 super + Escape
