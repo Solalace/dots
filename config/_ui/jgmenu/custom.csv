@@ -5,40 +5,40 @@
 
 
 ^sep()
-Terminal,kitty, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/terminal.png
+Terminal,kitty, $XDG_UI_CONFIG/jgmenu/MenuIcons/terminal.png
 
-Web Browser, qutebrowser, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/web-browser.png
+Web Browser, qutebrowser, $XDG_UI_CONFIG/jgmenu/MenuIcons/web-browser.png
 
-File manager, nemo, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/file-manager.png
+File manager, nemo, $XDG_UI_CONFIG/jgmenu/MenuIcons/file-manager.png
 
-Text Editor, gedit, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/text-editor.png
-
-^sep()
-Applications, ^checkout(apps), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/applications.png
-
-Development, ^checkout(dev), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/development.png
-
-Multimedia, ^checkout(multimedia), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/multimedia.png
-
-Network, ^checkout(network), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/network.png
-
-Utilities, ^checkout(utils), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/utilities.png
-
-Settings, ^checkout(settings), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/settings.png
+Text Editor, gedit, $XDG_UI_CONFIG/jgmenu/MenuIcons/text-editor.png
 
 ^sep()
-Exit, ^checkout(bspwm), $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/bspwm.png
+Applications, ^checkout(apps), $XDG_UI_CONFIG/jgmenu/MenuIcons/applications.png
+
+Development, ^checkout(dev), $XDG_UI_CONFIG/jgmenu/MenuIcons/development.png
+
+Multimedia, ^checkout(multimedia), $XDG_UI_CONFIG/jgmenu/MenuIcons/multimedia.png
+
+Network, ^checkout(network), $XDG_UI_CONFIG/jgmenu/MenuIcons/network.png
+
+Utilities, ^checkout(utils), $XDG_UI_CONFIG/jgmenu/MenuIcons/utilities.png
+
+Settings, ^checkout(settings), $XDG_UI_CONFIG/jgmenu/MenuIcons/settings.png
+
+^sep()
+Exit, ^checkout(bspwm), $XDG_UI_CONFIG/jgmenu/MenuIcons/bspwm.png
 
 
 ^tag(bspwm)
 
-Logout, bspc quit, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/logout.png
+Logout, bspc quit, $XDG_UI_CONFIG/jgmenu/MenuIcons/logout.png
 
-Reboot, systemctl -i reboot, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/reboot.png
+Reboot, systemctl -i reboot, $XDG_UI_CONFIG/jgmenu/MenuIcons/reboot.png
 
-Suspend, systemctl -i suspend, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/suspend.png
+Suspend, systemctl -i suspend, $XDG_UI_CONFIG/jgmenu/MenuIcons/suspend.png
 
-Poweroff, systemctl -i poweroff, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/poweroff.png
+Poweroff, systemctl -i poweroff, $XDG_UI_CONFIG/jgmenu/MenuIcons/poweroff.png
 
 ^tag(apps)
 
@@ -50,6 +50,6 @@ Poweroff, systemctl -i poweroff, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/poweroff.
 
 ^tag(utils)
 
-Nitrogen, nitrogen, $XDG_CONFIG_HOME/_ui/jgmenu/MenuIcons/nitrogen.png
+Nitrogen, nitrogen, $XDG_UI_CONFIG/jgmenu/MenuIcons/nitrogen.png
 
 ^tag(settings)
