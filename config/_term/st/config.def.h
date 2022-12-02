@@ -91,7 +91,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 4;
+unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -120,8 +120,8 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor */
-	"#bebebe", /* 258 -> bg */
-	"#0c0c0c", /* 259 -> fg */
+	"#0c0c0c", /* 258 -> bg */
+	"#bebebe", /* 259 -> fg */
 };
 
 
@@ -137,17 +137,12 @@ unsigned int background = 258;
 
 /*
  * Default shape of cursor
- * 0: Blinking block
  * 1: Blinking block (default)
  * 2: Steady block ("█")
- * 3: Blinking Underline
  * 4: Steady underline ("_")
- * 5: Blinking bar
  * 6: Steady bar ("|")
- * 7: Blinking st cursor
- * 8: Steady st cursor
  */
-static unsigned int cursorshape = 7;
+static unsigned int cursorshape = 1;
 
 /*
  * Default columns and rows numbers
