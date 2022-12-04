@@ -15,14 +15,12 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 
-alias nv="nvim"
-alias nano="nvim"
+alias hx="helix"
 
+alias _="sudo"
 alias cls="clear"
-
-alias grepin='grep -i'
-
-alias _='sudo'
+alias rd="rmdir"
+alias grepin="grep -i"
 
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 
