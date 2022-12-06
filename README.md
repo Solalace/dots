@@ -12,9 +12,9 @@ lightdm lightdm-gtk-greeter lightdm-webkit2-greeter \
 gtk-engines gtk-engine-murrine \
 zathura zathura-pdf-poppler \
 xscreensaver pulsemixer \
-bspwm sxhkd nitrogen kitty rofi jgmenu dunst fish \
+bspwm sxhkd nitrogen kitty rofi jgmenu dunst zsh \
 qutebrowser python-adblock \
-neovim nemo git wget p7zip
+helix bat nemo git wget lrzip
 ```
 
 #### Install Yay
