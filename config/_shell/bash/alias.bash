@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-alias lf="ls -f"
 alias la="ls -la"
 alias ll="ls -ll"
 
@@ -15,7 +14,7 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 
-alias hx="helix"
+alias nv="nvim"
 
 alias _="sudo"
 alias cls="clear"
