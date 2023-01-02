@@ -8,13 +8,11 @@ adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts \
 ttf-nerd-fonts-symbols-common ttf-jetbrains-mono ttf-joypixels \
 noto-fonts noto-fonts-emoji noto-fonts-cjk \
 powerline-fonts \
-lightdm lightdm-gtk-greeter lightdm-webkit2-greeter \
 gtk-engines gtk-engine-murrine \
 zathura zathura-pdf-poppler \
-xscreensaver pulsemixer \
-bspwm sxhkd nitrogen kitty rofi jgmenu dunst zsh \
-qutebrowser python-adblock \
-helix bat nemo git wget lrzip
+pipewire-jack pipewire-alsa pipewire-pulse pulsemixer alsa-utils \
+bspwm sxhkd nitrogen rofi jgmenu dunst zsh \
+git wget lrzip
 ```
 
 #### Install Yay
@@ -26,11 +24,11 @@ cd yay ; makepkg -si
 ## Yay packages
 ```
 yay -S nerd-fonts-complete ttf-iosevka \
-polybar pulseaudio alsa-utils \
+polybar \
 picom-animations-git \
 lxappearance qt5ct \
 papirus-icon-theme-git papirus-folders-git bibata-cursor-theme \
-materia-gtk-theme dracula-gtk-theme
+materia-gtk-theme
 ```
 
 ##### Clone the Repo
