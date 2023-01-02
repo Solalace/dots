@@ -23,7 +23,7 @@ cd yay ; makepkg -si
 
 ## Yay packages
 ```
-yay -S nerd-fonts-complete ttf-iosevka \
+yay -S nerd-fonts-complete ttf-iosevka ttf-meslo \
 polybar \
 picom-animations-git \
 lxappearance qt5ct \
