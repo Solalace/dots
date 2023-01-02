@@ -28,9 +28,8 @@ export GTK4_RC_FILES="$XDG_UI_CONFIG/gtk-4.0/"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
 export XCURSOR_SIZE=24
-export TERM=xterm
 
-userresources=$XDG_MAIN_CONFIG/X11/Xresources
+userresources=$XDG_MAIN_CONFIG/X11/Xresources/config.x
 usermodmap=$XDG_MAIN_CONFIG/X11/Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
