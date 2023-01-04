@@ -2,8 +2,6 @@
 
 export PATH="$PATH:$HOME/.local/bin"
 
-export SUDO_PROMPT="[$USER][sudo] password: "
-
 export XDG_MAIN_CONFIG="$HOME/.config/_main"
 export XDG_SHELL_CONFIG="$HOME/.config/_shell"
 export XDG_TERM_CONFIG="$HOME/.config/_term"
@@ -40,9 +38,13 @@ export WGETRC="$XDG_MISC_CONFIG/wgetrc"
 
 export KITTY_CONFIG_DIRECTORY="$XDG_TERM_CONFIG/kitty"
 
+export GTK_IM_MODULE='fcitx'
+export QT_IM_MODULE='fcitx'
+export XMODIFIERS='@im=fcitx'
+
 export WINDOW_MANAGER="bspwm"
-export BROWSER="qutebrowser"
-export TERMINAL="kitty"
+export BROWSER="firefox"
+export TERMINAL="urxvt"
 export READER="zathura"
 export VIDEO="mpv"
 export OPENER="xdg-open"
