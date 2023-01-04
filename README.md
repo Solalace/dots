@@ -7,7 +7,7 @@ qemu-guest-agent spice-vdagent xf86-video-intel xf86-video-qxl \
 adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts \
 ttf-nerd-fonts-symbols-common ttf-jetbrains-mono ttf-joypixels \
 noto-fonts noto-fonts-emoji noto-fonts-cjk \
-powerline-fonts \
+fcitx5-im fcitx5-configtool fcitx5-hangul adobe-source-han-sans-kr-fonts \
 gtk-engines gtk-engine-murrine \
 zathura zathura-pdf-poppler \
 pipewire-jack pipewire-alsa pipewire-pulse pulsemixer alsa-utils \
