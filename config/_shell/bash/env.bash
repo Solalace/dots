@@ -37,6 +37,7 @@ export DOCKER_CONFIG="$XDG_MISC_CONFIG/docker"
 export WGETRC="$XDG_MISC_CONFIG/wgetrc"
 
 export KITTY_CONFIG_DIRECTORY="$XDG_TERM_CONFIG/kitty"
+export URXVT_PERL_LIB="$XDG_TERM_CONFIG/urxvt/perl"
 
 export GTK_IM_MODULE='fcitx'
 export QT_IM_MODULE='fcitx'
@@ -53,10 +54,15 @@ export EDITOR="nvim"
 export SXHKD_SHELL="bash"
 export SHELL="/usr/bin/bash"
 
-
 export WINEPREFIX="$XDG_DATA_HOME/wineprefixes/default"
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME/pass"
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+
+# https://blog.joren.ga/vim-xdg
+# https://tlvince.com/vim-respect-xdg
+#
+# Set vimrc's location and source it on vim startup
+export VIMINIT='let $MYVIMRC="$XDG_TERM_CONFIG/nvim/vimrc" | source $MYVIMRC'
 
 # export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
 # export CARGO_HOME="$XDG_DATA_HOME/cargo"
