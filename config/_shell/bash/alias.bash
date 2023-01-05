@@ -18,6 +18,7 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 
+alias snv="sudo nvim"
 alias nv="nvim"
 
 alias _="sudo"
