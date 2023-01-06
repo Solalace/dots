@@ -62,7 +62,7 @@ export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 # https://tlvince.com/vim-respect-xdg
 #
 # Set vimrc's location and source it on vim startup
-export VIMINIT='let $MYVIMRC="$XDG_TERM_CONFIG/nvim/vimrc" | source $MYVIMRC'
+export VIMINIT='source "$XDG_TERM_CONFIG/nvim/init.lua"'
 
 # export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
 # export CARGO_HOME="$XDG_DATA_HOME/cargo"
