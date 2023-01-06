@@ -11,8 +11,8 @@ fcitx5-im fcitx5-configtool fcitx5-hangul adobe-source-han-sans-kr-fonts \
 gtk-engines gtk-engine-murrine \
 zathura zathura-pdf-poppler \
 pipewire-jack pipewire-alsa pipewire-pulse pulsemixer alsa-utils \
-bspwm sxhkd nitrogen rofi jgmenu dunst zsh \
-git wget lrzip
+bspwm sxhkd nitrogen rofi jgmenu dunst lua \
+git wget tree lrzip
 ```
 
 #### Install Yay
