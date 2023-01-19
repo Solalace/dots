@@ -6,7 +6,7 @@ URxvt.boldItalicFont: xft:Iosevka:style=Bold Italic:size=16
 URxvt.utf8: true
 URxvt.letterSpace: 1
 URxvt.lineSpace: 5
-URxvt.geometry: 92x24
+URxvt.geometry: 128x32
 URxvt.internalBorder: 30
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
