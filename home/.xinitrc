@@ -61,11 +61,12 @@ if [ -d "$XDG_MAIN_CONFIG"/X11/xinitrc.d ]; then
 fi
 
 function init_session() {
-  
-  export XDG_CURRENT_DESKTOP="bspwm"
-
     . "$XDG_MAIN_CONFIG/X11/Xprofile"
-    exec bspwm -c "$XDG_MAIN_CONFIG/bspwm/config.bash"
+    
+    case $( tty | cut -b9- ) in
+    (1) export XDG_CURRENT_DESKTOP="bspwm"
+        exec bspwm -c "$XDG_MAIN_CONFIG/bspwm/config.bash" ;;
+    esac
 }
 
 if [ ! "$PWD" = "$HOME" ]
