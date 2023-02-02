@@ -12,7 +12,6 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.var"
 export XDG_DATA_HOME="$HOME/.local/share"
 
-export XDG_SESSION_TYPE="x11"
 export XDG_CONFIG_DIRS="/etc/xdg"
 
 export XDG_DESKTOP_DIR="$HOME/desktop"
@@ -63,7 +62,7 @@ fi
 function init_session() {
     . "$XDG_MAIN_CONFIG/X11/Xprofile"
     
-    case $( tty | cut -b9- ) in
+    case $(tty | cut -b9-) in
     (1) export XDG_CURRENT_DESKTOP="bspwm"
         exec bspwm -c "$XDG_MAIN_CONFIG/bspwm/config.bash" ;;
     esac
