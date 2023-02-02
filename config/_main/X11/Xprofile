@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-# nitrogen --restore --set-scaled &
+setxkbmap -layout us
+hsetroot -solid "#050505"
+
 setxkbmap -layout us &
+fcitx -d &
 
 # Resolution
 # Make sure to give the script executable permission
