@@ -12,9 +12,8 @@ function preboot() {
 
 preboot sxhkd -c '$XDG_MAIN_CONFIG/sxhkd/sxhkdrc' -s /tmp/sxhkd.fifo
 preboot picom --config '$XDG_MAIN_CONFIG/picom/picom.conf'
-
+preboot dunst -config '$XDG_UI_CONFIG/dunst/config.ini'
 
 ## Disabled
-# preboot dunst -config '$XDG_UI_CONFIG/dunst/config.ini'
 # preboot parcellite --no-icon # clipboard manager
 # preboot spotifyd &
