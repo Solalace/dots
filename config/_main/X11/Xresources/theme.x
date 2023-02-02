@@ -1,12 +1,8 @@
 #include "variables.x"
 
 ! special
-*.foreground:		base00
-*.background:		[100]base01
-*.cursorColor:		base08
-*.cursorColor2:		base01
-*.highlightColor:	base10
-*.highlightTextColor:	base01
+*.foreground:	base00
+*.background: base01
 
 ! black
 *.color0: 		base01
