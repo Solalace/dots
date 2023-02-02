@@ -4,9 +4,6 @@ alias ls='ls --color'
 alias la="ls -la"
 alias ll="ls -ll"
 
-alias grep='grep --color'
-alias grepin="grep -i"
-
 alias cd..='cd ../'
 alias cd...='cd ../../'
 alias cd....='cd ../../../'
@@ -21,9 +18,14 @@ alias ......='cd ../../../../..'
 alias snv="sudo nvim"
 alias nv="nvim"
 
-alias _="sudo"
+alias clear="echo -ne '\033c'"
 alias cls="clear"
+
+alias _="sudo"
 alias rd="rmdir"
+
+alias grep='grep --color'
+alias grepin="grep -i"
 
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 
