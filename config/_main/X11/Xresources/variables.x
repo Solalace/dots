@@ -1,5 +1,5 @@
 #define base00 #BEBEBE 
-#define base01 #151515 
+#define base01 #131313 
 #define base03 #191919
 
 #define base02 #A56D71
