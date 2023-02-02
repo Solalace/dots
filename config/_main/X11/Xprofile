@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-setxkbmap -layout us
 hsetroot -solid "#050505"
+
+xset b off
+xsetroot -cursor_name left_ptr
+xset mouse 0 0
 
 setxkbmap -layout us &
 fcitx -d &
