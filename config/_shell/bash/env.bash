@@ -17,8 +17,8 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_DIRS="/etc/xdg"
 export XDG_RUNTIME_DIR="/run/user/$(id -u)"
 
-export HISTSIZE=1000
-export SAVEHIST=1000
+export HISTSIZE=2000
+export SAVEHIST=2000
 export HISTFILE="$XDG_STATE_HOME/bash/history"
 export LESSHISTFILE=-
 
@@ -30,20 +30,17 @@ export XDG_DOCUMENTS_DIR="$HOME/documents"
 export XDG_PICTURES_DIR="$HOME/pictures"
 export XDG_VIDEOS_DIR="$HOME/videos"
 
-export NPM_CONFIG_USERCONFIG="$XDG_MISC_CONFIG/npm/npmrc"
 #xport RIPGREP_CONFIG_PATH="$XDG_MISC_CONFIG/ripgreprc"
 export FFMPEG_DATADIR="$XDG_MISC_CONFIG/ffmpeg"
 export DOCKER_CONFIG="$XDG_MISC_CONFIG/docker"
 export WGETRC="$XDG_MISC_CONFIG/wgetrc"
 
-export KITTY_CONFIG_DIRECTORY="$XDG_TERM_CONFIG/kitty"
 export URXVT_PERL_LIB="$XDG_TERM_CONFIG/urxvt/perl"
 
 export GTK_IM_MODULE='fcitx'
 export QT_IM_MODULE='fcitx'
 export XMODIFIERS='@im=fcitx'
 
-export WINDOW_MANAGER="bspwm"
 export BROWSER="firefox"
 export TERMINAL="urxvt"
 export READER="zathura"
