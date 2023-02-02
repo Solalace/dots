@@ -11,9 +11,9 @@ fcitx5-im fcitx5-configtool fcitx5-hangul adobe-source-han-sans-kr-fonts \
 gtk-engines gtk-engine-murrine \
 zathura zathura-pdf-poppler \
 pipewire-jack pipewire-alsa pipewire-pulse pulsemixer alsa-utils \
-bspwm sxhkd nitrogen rofi tmux jgmenu dunst lua lf \
+bspwm sxhkd tmux dunst lua lf hsetroot \
 newsboat neomutt \
-git wget tree lrzip
+git wget xclip tree lrzip
 ```
 
 #### Install Yay
