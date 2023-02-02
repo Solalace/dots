@@ -3,12 +3,7 @@
 stty -ixon # Disable ctrl-s and ctrl-q
 
 # Setting Bash Prompt
-if [ "$EUID" -ne 0 ];
-then 
-  export PS1="[\[\e]0;\u@\h \w\a\]\[$(tput bold)\]\[\033[38;5;218m\]\u@\[\033[38;5;60m\]\h\[\033[00m\] \[\033[38;5;183m\]\w\[\033[00m\]]$ "
-else 
-  export PS1="[\[\e]0;\u@\h \w\a\]\[$(tput bold)\]\[\033[38;5;218m\]\u@\[\033[38;5;60m\]\h\[\033[00m\] \[\033[38;5;183m\]\w\[\033[00m\]]# "
-fi
+export PS1='\[\e[0m\][\[\e[0;1;38;5;218m\]\u\[\e[0;1;38;5;218m\]@\[\e[0;1;38;5;60m\]\h \[\e[0;38;5;183m\]\w\[\e[0m\]]\[\e[0m\]$ \[\e[0m\]'
 
 export GPG_TTY=$(tty)
 
