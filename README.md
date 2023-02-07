@@ -11,8 +11,8 @@ fcitx5-im fcitx5-configtool fcitx5-hangul adobe-source-han-sans-kr-fonts \
 gtk-engines gtk-engine-murrine \
 zathura zathura-pdf-poppler \
 pipewire-jack pipewire-alsa pipewire-pulse pulsemixer alsa-utils \
-bspwm sxhkd tmux dunst lua lf hsetroot \
-newsboat neomutt \
+bspwm sxhkd tmux dunst lua lf hsetroot xcompmgr python-pywal sxiv \
+newsboat neomutt redshift flameshot \
 git wget xclip tree lrzip
 ```
 
