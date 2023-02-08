@@ -4,8 +4,8 @@ xset b off
 xsetroot -cursor_name left_ptr
 xset mouse 0 0
 
-fcitx -d &
-setxkbmap -layout us &
+fcitx5 -d
+setxkbmap -layout us
 unclutter --timeout 10 &
 
 # Resolution
