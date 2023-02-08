@@ -5,15 +5,17 @@
 sudo pacman -S xorg xorg-xinit xorg-server \
 qemu-guest-agent spice-vdagent xf86-video-intel xf86-video-qxl \
 adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts \
+adobe-source-han-sans-kr-fonts \
 ttf-nerd-fonts-symbols-common ttf-jetbrains-mono ttf-joypixels \
 noto-fonts noto-fonts-emoji noto-fonts-cjk \
-fcitx5-im fcitx5-configtool fcitx5-hangul adobe-source-han-sans-kr-fonts \
+fcitx5-im fcitx5-configtool fcitx5-hangul libhangul \
 gtk-engines gtk-engine-murrine \
-zathura zathura-pdf-poppler \
+zathura zathura-pdf-poppler sxiv \
 pipewire-jack pipewire-alsa pipewire-pulse pulsemixer alsa-utils \
-bspwm sxhkd tmux dunst lua lf hsetroot xcompmgr python-pywal sxiv \
+bspwm sxhkd tmux dunst lua lf \
+unclutter xcompmgr python-pywal python-pywalfox \
 newsboat neomutt redshift flameshot \
-git wget xclip tree lrzip
+git wget xclip tree
 ```
 
 #### Install Yay
