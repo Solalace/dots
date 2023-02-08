@@ -27,11 +27,8 @@ cd yay ; makepkg -si
 ## Yay packages
 ```
 yay -S nerd-fonts-complete ttf-iosevka \
-polybar \
-picom-animations-git \
-lxappearance qt5ct \
-papirus-icon-theme-git papirus-folders-git bibata-cursor-theme \
-materia-gtk-theme
+polybar lxappearance qt5ct \
+themix-full-git papirus-icon-theme-git papirus-folders-git bibata-cursor-theme
 ```
 
 ##### Clone the Repo
