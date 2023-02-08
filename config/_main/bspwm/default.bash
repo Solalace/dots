@@ -8,20 +8,19 @@ wm border_width   8
 wm window_gap     8
 wm top_padding    0
 
-source "$XDG_MAIN_CONFIG/bspwm/theme.bash"
-wm normal_border_color "$shade"
-wm focused_border_color "$black"
-wm active_border_color "$magenta"
-wm presel_feedback_color "$blue"
+wm normal_border_color "#1c2126"
+wm focused_border_color "#101317"
+wm active_border_color "#b77ee0"
+wm presel_feedback_color "$(xrdb -query | grep '*.color4:' | awk '{print $NF}')"
 
 wm split_ratio 0.5
 wm mapping_events_count -1
 
-wm borderless_monocle   false
+wm borderless_monocle   true
 wm paddingless_monocle  false
 wm gapless_monocle      false
 wm single_monocle       false
-wm center_pseudo_tiled  true
+wm center_pseudo_tiled  false
 wm presel_feedback      true
 
 wm top_monocle_padding    0;
