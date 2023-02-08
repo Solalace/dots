@@ -20,10 +20,6 @@ export XDG_DOCUMENTS_DIR="$HOME/documents"
 export XDG_PICTURES_DIR="$HOME/pictures"
 export XDG_VIDEOS_DIR="$HOME/videos"
 
-export GTK2_RC_FILES="$XDG_UI_CONFIG/gtk-2.0/"
-export GTK3_RC_FILES="$XDG_UI_CONFIG/gtk-3.0/"
-export GTK4_RC_FILES="$XDG_UI_CONFIG/gtk-4.0/"
-
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
 export XCURSOR_SIZE=24
@@ -63,8 +59,7 @@ function init_session() {
     . "$XDG_MAIN_CONFIG/X11/Xprofile"
     
     case $(tty | cut -b9-) in
-    (1) export XDG_CURRENT_DESKTOP="bspwm"
-        exec bspwm -c "$XDG_MAIN_CONFIG/bspwm/config.bash" ;;
+    (1) exec bspwm -c "$XDG_MAIN_CONFIG/bspwm/config.bash" ;;
     esac
 }
 
