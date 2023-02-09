@@ -30,6 +30,7 @@ alias clear="echo -ne '\033c'"
 alias cls="clear"
 
 alias rd="rmdir"
+alias ka="killall"
 
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 
