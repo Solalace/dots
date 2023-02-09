@@ -46,4 +46,4 @@ URxvt.keysym.Control-minus:	perl:font-size:decrease
 URxvt.keysym.Shift-Control-equal: perl:font-size:incglobal
 URxvt.keysym.Shift-Control-minus: perl:font-size:decglobal
 URxvt.keysym.Control-0:	perl:font-size:reset
-URxvt.font-size.step: 2
+URxvt.font-size.step: 1
