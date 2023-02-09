@@ -3,7 +3,7 @@
 
 Xft.antialias:		1
 Xft.hinting:		  true
-Xft.dpi:	      	196
+Xft.dpi:	      	96
 Xft.rgba:         rgb
 
 Xcursor.theme:		Bibata-Modern-Ice
