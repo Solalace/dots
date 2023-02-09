@@ -27,11 +27,6 @@ URxvt*scrollTtyKeypress: true
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 
-URxvt.foreground:   base00
-URxvt.background:   base01
-URxvt.cursorColor:  base08
-URxvt.cursorColor2: base01
-
 !! Extensions :
 URxvt.perl-ext.common: default,matcher,font-size
 URxvt.copyCommand: xclip -i -selection clipboard
