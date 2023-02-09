@@ -9,6 +9,6 @@ HISTCONTROL=ignoreboth
 # Append to history file without overwriting
 shopt -s histappend
 
-files=("env" "alias" "prompt" "theme")
+files=("env" "alias" "prompt")
 for file in "${files[@]}"; do source "$HOME/.config/_shell/bash/$file.bash"; done
 files=""
