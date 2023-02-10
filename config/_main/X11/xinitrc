@@ -56,7 +56,7 @@ if [ -d "$XDG_MAIN_CONFIG"/X11/xinitrc.d ]; then
 fi
 
 function init_session() {
-    . "$XDG_MAIN_CONFIG/X11/Xprofile"
+    . "$XDG_MAIN_CONFIG/X11/xprofile"
     
     case $(tty | cut -b9-) in
     (1) exec bspwm -c "$XDG_MAIN_CONFIG/bspwm/config.bash" ;;
