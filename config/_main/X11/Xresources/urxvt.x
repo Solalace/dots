@@ -6,7 +6,7 @@ URxvt.boldItalicFont: xft:Iosevka:style=Bold Italic:size=16
 URxvt.utf8: true
 URxvt.letterSpace: 1
 URxvt.lineSpace: 5
-URxvt.geometry: 128x32
+URxvt.geometry: 128x24
 URxvt.termName: rxvt-unicode
 URxvt.title: urxvt
 URxvt.internalBorder: 30
@@ -43,7 +43,5 @@ URxvt.matcher.button: 1
 !! font-size :
 URxvt.keysym.Control-equal:	perl:font-size:increase	
 URxvt.keysym.Control-minus:	perl:font-size:decrease
-URxvt.keysym.Shift-Control-equal: perl:font-size:incglobal
-URxvt.keysym.Shift-Control-minus: perl:font-size:decglobal
 URxvt.keysym.Control-0:	perl:font-size:reset
 URxvt.font-size.step: 1
