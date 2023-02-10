@@ -27,12 +27,6 @@ export SAVEHIST=5000
 export HISTFILE="$XDG_STATE_HOME/bash/history"
 export LESSHISTFILE=-
 
-export XDG_DESKTOP_DIR="$HOME/desktop"
-export XDG_DOWNLOAD_DIR="$HOME/downloads"
-export XDG_DOCUMENTS_DIR="$HOME/documents"
-export XDG_PICTURES_DIR="$HOME/pictures"
-export XDG_VIDEOS_DIR="$HOME/videos"
-
 export GTK2_RC_FILES="$XDG_UI_CONFIG/gtk-2.0/gtkrc-2.0"
 #xport RIPGREP_CONFIG_PATH="$XDG_MISC_CONFIG/ripgreprc"
 export FFMPEG_DATADIR="$XDG_MISC_CONFIG/ffmpeg"
