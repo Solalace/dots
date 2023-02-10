@@ -4,7 +4,7 @@
 
 if shopt -q login_shell; then
     [[ -f ~/.bashrc ]] && source ~/.bashrc
-    [[ -z "$DISPLAY" && $(id -u) -ge 1000 && ! XDG_VTNR == 6 ]] && exec startx
+    [[ -z "$DISPLAY" && $(id -u) -ge 1000 && "$(tty)" = "/dev/tty1" ]] && exec startx "$XINITRC"
 else
     exit 1
 fi
