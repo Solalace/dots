@@ -15,7 +15,7 @@ pipewire-jack pipewire-alsa pipewire-pulse pulsemixer alsa-utils \
 bspwm sxhkd tmux dunst lua lf \
 unclutter xcompmgr python-pywal python-pywalfox \
 newsboat neomutt redshift flameshot \
-git wget xclip tree
+git wget xclip tree xdg-user-dirs
 ```
 
 #### Install Yay
