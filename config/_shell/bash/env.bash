@@ -17,12 +17,15 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_DIRS="/etc/xdg"
 export XDG_RUNTIME_DIR="/run/user/$(id -u)"
 
-export HISTSIZE=2000
-export SAVEHIST=2000
+export XINITRC="$XDG_MAIN_CONFIG/X11/xinitrc"
+export ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors"
+export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority" # This line will break some DMs
+export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
+
+export HISTSIZE=5000
+export SAVEHIST=5000
 export HISTFILE="$XDG_STATE_HOME/bash/history"
 export LESSHISTFILE=-
-
-export ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors"
 
 export XDG_DESKTOP_DIR="$HOME/desktop"
 export XDG_DOWNLOAD_DIR="$HOME/downloads"
@@ -30,6 +33,7 @@ export XDG_DOCUMENTS_DIR="$HOME/documents"
 export XDG_PICTURES_DIR="$HOME/pictures"
 export XDG_VIDEOS_DIR="$HOME/videos"
 
+export GTK2_RC_FILES="$XDG_UI_CONFIG/gtk-2.0/gtkrc-2.0"
 #xport RIPGREP_CONFIG_PATH="$XDG_MISC_CONFIG/ripgreprc"
 export FFMPEG_DATADIR="$XDG_MISC_CONFIG/ffmpeg"
 export DOCKER_CONFIG="$XDG_MISC_CONFIG/docker"
@@ -61,8 +65,8 @@ export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 # Set vimrc's location and source it on vim startup
 export VIMINIT='source "$XDG_TERM_CONFIG/nvim/init.lua"'
 
-# export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
-# export CARGO_HOME="$XDG_DATA_HOME/cargo"
+export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
 # source "$HOME/.cargo/env"
 
 # Man page colors
