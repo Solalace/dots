@@ -20,7 +20,7 @@ export XDG_DOCUMENTS_DIR="$HOME/documents"
 export XDG_PICTURES_DIR="$HOME/pictures"
 export XDG_VIDEOS_DIR="$HOME/videos"
 
-export QT_QPA_PLATFORMTHEME="qt5ct"
+export QT_QPA_PLATFORMTHEME="gtk2" # Make QT use gtk2 theme
 
 export XCURSOR_SIZE=24
 
