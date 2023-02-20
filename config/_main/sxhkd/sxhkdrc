@@ -20,7 +20,11 @@ super + backslash
 
 # program launcher
 super + @space
-	dmenu-run
+	rofi -config $XDG_UI_CONFIG/rofi/dmenu.rasi -show drun
+	
+# desktop entry menu
+super + Tab
+	rofi -config $XDG_UI_CONFIG/rofi/desktop.rasi -show drun
 
 # make sxhkd reload its configuration files:
 super + shift + Escape
@@ -32,12 +36,12 @@ super + shift + Escape
 #
 
 # quit/restart bspwm
-super + alt + q
+super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + shift + q
-	bspc node -{c,k}
+alt + Escape
+	bspc node -c
 
 # alternate between the tiled and monocle layout
 super + m
