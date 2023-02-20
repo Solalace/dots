@@ -28,7 +28,6 @@ export HISTFILE="$XDG_STATE_HOME/bash/history"
 export LESSHISTFILE=-
 
 export GTK2_RC_FILES="$XDG_UI_CONFIG/gtk-2.0/gtkrc-2.0"
-#xport RIPGREP_CONFIG_PATH="$XDG_MISC_CONFIG/ripgreprc"
 export FFMPEG_DATADIR="$XDG_MISC_CONFIG/ffmpeg"
 export DOCKER_CONFIG="$XDG_MISC_CONFIG/docker"
 export WGETRC="$XDG_MISC_CONFIG/wgetrc"
