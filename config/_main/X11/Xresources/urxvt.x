@@ -19,22 +19,26 @@ URxvt.urgentOnBell: true
 URxvt.depth: 32
 URxvt.iso14755: false
 URxvt.iso14755_52: false
+URxvt.colorUL: #88aFFF
 
-URxvt*scrollTtyOutput:   false
+URxvt*scrollTtyOutput:   true
 URxvt*scrollWithBuffer:  false
 URxvt*scrollTtyKeypress: true
 
-URxvt.secondaryScreen: 1
+URxvt.secondaryScreen: 0
 URxvt.secondaryScroll: 0
 
+! Clear scrollback buffer
+URxvt.keysym.Control-l:	echo -ne '\\033c'\n
+
 !! Extensions :
-URxvt.perl-ext.common: default,matcher,font-size
-URxvt.copyCommand: xclip -i -selection clipboard
-URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.perl-ext.common: default,matcher,font-size,-confirm-paste
+
+!! Built-in :
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
-URxvt.keysym.Control-l:	echo -ne '\\033c'\n
-URxvt.colorUL: #88aFFF
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
 
 !! matcher :
 URxvt.url-launcher:	/usr/bin/xdg-open
