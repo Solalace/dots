@@ -14,12 +14,6 @@ export XDG_DATA_HOME="$HOME/.local/share"
 
 export XDG_CONFIG_DIRS="/etc/xdg"
 
-export XDG_DESKTOP_DIR="$HOME/desktop"
-export XDG_DOWNLOAD_DIR="$HOME/downloads"
-export XDG_DOCUMENTS_DIR="$HOME/documents"
-export XDG_PICTURES_DIR="$HOME/pictures"
-export XDG_VIDEOS_DIR="$HOME/videos"
-
 export QT_QPA_PLATFORMTHEME="gtk2" # Make QT use gtk2 theme
 
 export XCURSOR_SIZE=24
