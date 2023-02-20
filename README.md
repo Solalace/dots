@@ -12,7 +12,7 @@ fcitx5-im fcitx5-configtool fcitx5-hangul libhangul \
 gtk-engines gtk-engine-murrine \
 zathura zathura-pdf-poppler sxiv \
 pipewire-jack pipewire-alsa pipewire-pulse pulsemixer alsa-utils \
-bspwm sxhkd tmux dunst lua lf \
+bspwm sxhkd tmux dunst lua lf ripgrep \
 unclutter xcompmgr python-pywal python-pywalfox \
 newsboat neomutt redshift flameshot \
 git wget xclip tree xdg-user-dirs
