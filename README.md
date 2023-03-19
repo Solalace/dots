@@ -1,6 +1,11 @@
-### Installation
 
-## Packages
+<h2 align="center"> WIP Dotfiles</h2>
+</br>
+
+## Dependencies
+
+### Arch packages
+
 ```
 sudo pacman -S xorg xorg-xinit xorg-server \
 qemu-guest-agent spice-vdagent xf86-video-intel xf86-video-qxl \
@@ -18,34 +23,30 @@ newsboat neomutt redshift flameshot \
 git wget xclip tree xdg-user-dirs
 ```
 
-#### Install Yay
-```
-git clone https://aur.archlinux.org/yay.git
-cd yay ; makepkg -si
-```
-
-## Yay packages
+### Yay packages
 ```
 yay -S nerd-fonts-complete ttf-iosevka \
 polybar lxappearance qt5ct \
 themix-full-git papirus-icon-theme-git papirus-folders-git bibata-cursor-theme
 ```
 
-##### Clone the Repo
+### Portage packages
 ```
-git clone https://github.com/Solalace/dots
+emerge -a xorg-server unclutter-xfixes xdg-user-dirs \
+alee-fonts noto gtk-engines \
+fcitx fcitx-hangul fcitx-configtool libhangul \
+zathura zathura-pdf-poppler sxiv \
+bspwm sxhkd tmux dunst ripgrep \
+newsboat neomutt redshift flameshot \
+media-video/pipewire pulsemixer \
+x11-misc/xclip app-text/tree dev-vcs/git wget
 ```
 
-##### Give permissions to execute:
+#### Give permissions to execute:
 ```
 cd ~/ ; chmod +x .xinitrc .xsession
 cd ~/.config ; chmod +x _ui/polybar/launch.sh _main/bspwm/config.bash _main/picom/picom.conf _main/sxhkd/sxhkdrc
 ```
 
-##### Move pre-installed fonts:
-```
-sudo mkdir /usr/share/fonts/ /usr/share/fonts/OTF /usr/share/fonts/TTF
-cd /usr/share/fonts/
-sudo cp ~/.local/share/fonts/*ttf* TTF/ | sudo cp ~/.local/share/fonts/*otf* OTF/
-sudo cp ~/.local/share/fonts/*/ .
-```
+## Credits
+* **[dharmx - file structure & inspiration](https://github.com/dharmx)** 
