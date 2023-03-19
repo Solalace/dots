@@ -32,7 +32,7 @@ themix-full-git papirus-icon-theme-git papirus-folders-git bibata-cursor-theme
 
 ### Portage packages
 ```
-emerge -a xorg-server unclutter-xfixes xdg-user-dirs \
+emerge -a xorg-server xorg-drivers unclutter-xfixes xdg-user-dirs \
 alee-fonts noto gtk-engines \
 fcitx fcitx-hangul fcitx-configtool libhangul \
 zathura zathura-pdf-poppler sxiv \
