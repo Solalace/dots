@@ -38,7 +38,7 @@ fcitx fcitx-hangul fcitx-configtool libhangul \
 zathura zathura-pdf-poppler sxiv \
 bspwm sxhkd tmux dunst ripgrep \
 newsboat neomutt redshift flameshot \
-media-video/pipewire pulsemixer \
+media-video/pipewire pulseaudio pulsemixer libpulse \
 x11-misc/xclip app-text/tree dev-vcs/git wget
 ```
 
