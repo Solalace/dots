@@ -44,8 +44,7 @@ x11-misc/xclip app-text/tree dev-vcs/git wget
 
 #### Give permissions to execute:
 ```
-cd ~/ ; chmod +x .xinitrc .xsession
-cd ~/.config ; chmod +x _ui/polybar/launch.sh _main/bspwm/config.bash _main/picom/picom.conf _main/sxhkd/sxhkdrc
+cd ~/.config ; chmod +x _ui/polybar/launch.sh _main/X11/xinitrc _main/bspwm/config.bash _main/picom/picom.conf _main/sxhkd/sxhkdrc
 ```
 
 ## Credits
