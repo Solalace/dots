@@ -37,8 +37,8 @@ alee-fonts noto gtk-engines \
 fcitx fcitx-hangul fcitx-configtool libhangul \
 zathura zathura-pdf-poppler sxiv \
 bspwm sxhkd tmux dunst ripgrep \
-newsboat neomutt redshift flameshot \
-media-video/pipewire pulseaudio pulsemixer libpulse \
+rxvt-unicode newsboat neomutt redshift maim \
+media-video/pipewire pulseaudio pulsemixer \
 x11-misc/xclip app-text/tree dev-vcs/git wget
 ```
 
